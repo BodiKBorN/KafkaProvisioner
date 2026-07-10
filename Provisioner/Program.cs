@@ -1,11 +1,10 @@
 using System.Reflection;
 using Confluent.Kafka;
+using Infrastructure;
 using Microsoft.Extensions.Options;
-using Tech.Common;
 using Tech.Deployment.KafkaSetup.Services;
 using Infrastructure.Options;
 using Tech.Kafka.Clients.Admin;
-using Tech.Social.Infrastructure;
 
 var builder = Host.CreateApplicationBuilder(args);
 

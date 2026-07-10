@@ -1,9 +1,9 @@
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace Tech.Social.Infrastructure;
+namespace Infrastructure;
 
 public static class ServiceLocator
 {

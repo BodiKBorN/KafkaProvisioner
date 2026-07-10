@@ -1,14 +1,13 @@
-using System;
-using System.Threading;
-using System.Threading.Tasks;
 using App.Metrics;
-using Tech.Common.Extensions;
 using Infrastructure.Utilities;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Tech.Kafka.Utilities;
 
-namespace Tech.Social.Infrastructure.Pipelines.Assign;
+namespace Infrastructure.Pipelines.Assign;
 
 public abstract class ResilientHostedService(ILogger logger, IMetrics metrics) : IHostedService
 {

@@ -1,21 +1,21 @@
-using System;
-using System.Reactive.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using App.Metrics;
 using Infrastructure.Options;
-using Tech.Kafka.Clients;
-using Tech.Kafka.Clients.Producer;
-using Tech.Kafka.Models;
-using Tech.Kafka.Utilities.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json.Linq;
+using System;
+using System.Reactive.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using Tech.Kafka.Clients;
+using Tech.Kafka.Clients.Producer;
+using Tech.Kafka.Models;
+using Tech.Kafka.Utilities.Extensions;
 using Topic = Tech.Kafka.Clients.Admin.Topic;
 
-namespace Tech.Social.Infrastructure.Pipelines;
+namespace Infrastructure.Pipelines;
 
 public class EventPipeline : BaseEventPipeline<string, JObject>, IHostedService
 {

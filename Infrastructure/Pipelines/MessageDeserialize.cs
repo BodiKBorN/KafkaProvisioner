@@ -1,16 +1,15 @@
-using System;
-using System.Text;
-using System.Threading;
-using Tech.Domain;
-using Tech.Kafka.Utilities;
 using Confluent.Kafka;
+using Infrastructure.Bus.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
+using System;
+using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
-using Tech.Social.Domain;
+using Tech.Kafka.Utilities;
 
-namespace Tech.Social.Infrastructure.Pipelines;
+namespace Infrastructure.Pipelines;
 
 internal class EventHandlerResult
 {

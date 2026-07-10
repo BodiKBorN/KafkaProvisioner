@@ -1,27 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using App.Metrics;
-using Confluent.Kafka;
-using Microsoft.AspNetCore.Http.HttpResults;
+using Infrastructure.Bus.Abstractions;
+using Infrastructure.Bus.Produce;
+using Infrastructure.Bus.Produce.ProducerInvokers;
+using Infrastructure.Pipelines;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Infrastructure.Options;
-using Tech.Kafka.Clients;
-using Tech.Kafka.Clients.Admin;
-using Tech.Kafka.Clients.Producer;
-using Tech.Kafka.Models;
-using Tech.Social.Infrastructure.Bus.Abstractions;
-using Tech.Social.Infrastructure.Bus.Produce;
-using Tech.Social.Infrastructure.Bus.ProducerInvokers;
-using Tech.Social.Infrastructure.Pipelines;
 
-namespace Tech.Social.Infrastructure.Bus;
+namespace Infrastructure.Bus;
 
 internal static class BusDependencyRegistrations
 {

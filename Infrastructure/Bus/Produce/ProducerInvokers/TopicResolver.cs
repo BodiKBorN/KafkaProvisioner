@@ -1,12 +1,10 @@
+using Infrastructure.Bus.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tech.Kafka.Clients.Admin;
-using Tech.Social.Infrastructure.Bus.Abstractions;
 
-namespace Tech.Social.Infrastructure.Bus.ProducerInvokers;
+namespace Infrastructure.Bus.Produce.ProducerInvokers;
 
 internal interface ITopicResolver
 {

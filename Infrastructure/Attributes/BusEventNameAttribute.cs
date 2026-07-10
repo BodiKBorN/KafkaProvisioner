@@ -1,6 +1,6 @@
 using System;
 
-namespace Tech.Domain.Attributes;
+namespace Infrastructure.Attributes;
 
 public class BusEventNameAttribute : Attribute
 {

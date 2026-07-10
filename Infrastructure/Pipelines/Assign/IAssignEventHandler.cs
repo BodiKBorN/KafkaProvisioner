@@ -1,8 +1,8 @@
+using Confluent.Kafka;
 using System.Threading;
 using System.Threading.Tasks;
-using Confluent.Kafka;
 
-namespace Tech.Social.Infrastructure.Pipelines.Assign;
+namespace Infrastructure.Pipelines.Assign;
 
 public interface IAssignEventHandler<TKey, TValue>
 {

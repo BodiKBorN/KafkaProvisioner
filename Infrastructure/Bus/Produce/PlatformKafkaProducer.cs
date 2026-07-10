@@ -1,13 +1,12 @@
+using Infrastructure.Bus.Abstractions;
+using Infrastructure.Bus.Produce.ProducerInvokers;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
-using Tech.Social.Domain;
-using Tech.Social.Infrastructure.Bus.Abstractions;
-using Tech.Social.Infrastructure.Bus.ProducerInvokers;
 
-namespace Tech.Social.Infrastructure.Bus;
+namespace Infrastructure.Bus.Produce;
 
 internal interface IPlatformKafkaProducer
 {

@@ -1,8 +1,8 @@
+using Infrastructure.Bus.Abstractions;
 using Infrastructure.Options;
 using Tech.Kafka.Clients.Admin;
-using Tech.Social.Infrastructure.Bus.Abstractions;
 
-namespace Tech.Social.Infrastructure.Bus;
+namespace Infrastructure.Bus;
 
 public class CorePlatformTopics : ICorePlatformTopics
 {

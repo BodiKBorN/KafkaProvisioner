@@ -1,9 +1,9 @@
-using System.Text;
-using Tech.Kafka.Utilities;
 using Confluent.Kafka;
 using Microsoft.Extensions.Logging;
+using System.Text;
+using Tech.Kafka.Utilities;
 
-namespace Tech.Social.Infrastructure.Pipelines.Assign;
+namespace Infrastructure.Pipelines.Assign;
 
 public abstract class BaseAssignEventHandler<TKey, TValue>
 {

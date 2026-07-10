@@ -3,7 +3,7 @@ using Infrastructure.Utilities;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace Tech.Social.Infrastructure.Logging;
+namespace Infrastructure.Logging;
 
 public class MetricLoggerProvider : ILoggerProvider
 {

@@ -1,11 +1,9 @@
+using Infrastructure.Bus.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Tech.Social.Domain.Extensions;
-using Tech.Domain;
-using Tech.Social.Domain;
 
-namespace Tech.Social.Infrastructure.Pipelines;
+namespace Infrastructure.Pipelines;
 
 internal interface IRegisteredEvents
 {

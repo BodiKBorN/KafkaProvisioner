@@ -1,9 +1,8 @@
-using System.Diagnostics;
-using System.Net;
-using Infrastructure.Options;
 using Confluent.Kafka;
+using Infrastructure.Options;
+using System.Net;
 
-namespace Tech.Social.Infrastructure.Bus;
+namespace Infrastructure.Bus.Produce;
 
 public static class ProducerHelper
 {

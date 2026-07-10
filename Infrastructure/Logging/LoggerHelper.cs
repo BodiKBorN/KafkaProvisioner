@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Tech.Social.Infrastructure.Logging;
+namespace Infrastructure.Logging;
 
 public static class LoggerHelper
 {

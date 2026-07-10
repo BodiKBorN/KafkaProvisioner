@@ -1,7 +1,7 @@
 ﻿using Serilog.Core;
 using Serilog.Events;
 
-namespace Tech.Social.Infrastructure.Logging;
+namespace Infrastructure.Logging;
 
 public class LogAreaPrefixEnricher : ILogEventEnricher
 {

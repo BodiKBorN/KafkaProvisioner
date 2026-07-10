@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Tech.Common.Extensions
+namespace Infrastructure
 {
     public static class TypeExtensions
     {

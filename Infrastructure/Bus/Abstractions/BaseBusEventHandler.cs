@@ -1,9 +1,8 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Tech.Common.Extensions;
 
-namespace Tech.Social.Domain
+namespace Infrastructure.Bus.Abstractions
 {
     public abstract class EventHandlerBase<TEvent> : IEventHandler where TEvent : class, IEvent
     {

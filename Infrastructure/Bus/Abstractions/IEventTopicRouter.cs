@@ -1,11 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tech.Kafka.Clients.Admin;
 
-namespace Tech.Social.Infrastructure.Bus.Abstractions;
+namespace Infrastructure.Bus.Abstractions;
 
 public interface IEventTopicRouter
 {

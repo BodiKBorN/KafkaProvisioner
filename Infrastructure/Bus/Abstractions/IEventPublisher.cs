@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Tech.Social.Domain;
 
-namespace Tech.Social.Infrastructure.Bus.Abstractions;
+namespace Infrastructure.Bus.Abstractions;
 
 public interface IEventPublisher
 {

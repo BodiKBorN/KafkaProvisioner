@@ -1,6 +1,6 @@
 using Tech.Kafka.Clients.Admin;
 
-namespace Tech.Social.Infrastructure.Bus.Abstractions;
+namespace Infrastructure.Bus.Abstractions;
 
 public interface ICorePlatformTopics
 {

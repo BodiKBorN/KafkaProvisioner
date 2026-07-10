@@ -1,8 +1,9 @@
+using Infrastructure.Attributes;
+using Infrastructure.Bus.Abstractions;
 using System;
 using System.Linq;
-using Tech.Domain.Attributes;
 
-namespace Tech.Social.Domain.Extensions;
+namespace Infrastructure;
 
 public static class EventExtensions
 {

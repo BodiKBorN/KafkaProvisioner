@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
-using Tech.Kafka.Clients.Admin;
 
-namespace Tech.Social.Domain;
+namespace Infrastructure.Bus.Abstractions;
 
 public interface ITraceableEvent : IEvent
 {

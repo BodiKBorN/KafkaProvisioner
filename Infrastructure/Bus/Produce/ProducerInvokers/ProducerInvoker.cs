@@ -1,17 +1,15 @@
+using Infrastructure.Bus.Abstractions;
+using Infrastructure.Options;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Options;
-using Infrastructure.Options;
-using Tech.Kafka.Clients.Producer;
 using Tech.Kafka.Clients;
-using Microsoft.Extensions.DependencyInjection;
-using Tech.Social.Domain;
+using Tech.Kafka.Clients.Producer;
 
-namespace Tech.Social.Infrastructure.Bus.ProducerInvokers;
+namespace Infrastructure.Bus.Produce.ProducerInvokers;
 
 internal class ProducerInvoker<TEvent> : IProducerInvoker
     where TEvent : class, IEvent

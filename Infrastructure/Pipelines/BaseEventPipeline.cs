@@ -1,16 +1,15 @@
-using System;
-using System.Threading;
-using System.Threading.Tasks;
 using App.Metrics;
 using App.Metrics.Meter;
 using App.Metrics.Timer;
-using Tech.Common.Extensions;
-using Tech.Kafka.Clients.Consumer;
 using Confluent.Kafka;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+using Tech.Kafka.Clients.Consumer;
 using Tech.Kafka.Utilities;
 
-namespace Tech.Social.Infrastructure.Pipelines;
+namespace Infrastructure.Pipelines;
 
 public abstract class BaseEventPipeline<TKey, TValue>(
     ILogger<BaseEventPipeline<TKey, TValue>> logger,

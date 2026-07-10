@@ -1,4 +1,4 @@
-namespace Tech.Social.Domain;
+namespace Infrastructure.Bus.Abstractions;
 
 public interface IEvent
 {

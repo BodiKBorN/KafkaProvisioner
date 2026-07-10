@@ -1,4 +1,5 @@
 #nullable enable
+using Infrastructure.Bus.Abstractions;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Concurrent;
@@ -6,10 +7,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Transactions;
-using Tech.Social.Domain;
-using Tech.Social.Infrastructure.Bus.Abstractions;
 
-namespace Tech.Social.Infrastructure.Bus.Produce;
+namespace Infrastructure.Bus.Produce;
 
 /// <summary>
 /// A decorator that wraps an <see cref="IEventPublisher"/> to add transaction-aware event buffering capabilities.

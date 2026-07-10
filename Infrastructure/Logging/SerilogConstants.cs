@@ -1,4 +1,4 @@
-namespace Tech.Social.Infrastructure.Logging;
+namespace Infrastructure.Logging;
 
 public static class SerilogConstants
 {
