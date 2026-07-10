@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Deployment.KafkaSetup", "Tech.Deployment.KafkaSetup\Tech.Deployment.KafkaSetup.csproj", "{0E9BB8CF-CE87-4B3F-A7DE-6A33058AA164}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provisioner", "Provisioner\Provisioner.csproj", "{0E9BB8CF-CE87-4B3F-A7DE-6A33058AA164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Infrastructure", "Tech.Infrastructure\Tech.Infrastructure.csproj", "{05EE8BC6-8E58-4B77-8E63-234E9BCDFE85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{05EE8BC6-8E58-4B77-8E63-234E9BCDFE85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
