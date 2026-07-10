@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Deployment.KafkaSetup", "Tech.Deployment.KafkaSetup\Tech.Deployment.KafkaSetup.csproj", "{0E9BB8CF-CE87-4B3F-A7DE-6A33058AA164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Infrastructure", "Tech.Infrastructure\Tech.Infrastructure.csproj", "{05EE8BC6-8E58-4B77-8E63-234E9BCDFE85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E9BB8CF-CE87-4B3F-A7DE-6A33058AA164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9BB8CF-CE87-4B3F-A7DE-6A33058AA164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9BB8CF-CE87-4B3F-A7DE-6A33058AA164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9BB8CF-CE87-4B3F-A7DE-6A33058AA164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EE8BC6-8E58-4B77-8E63-234E9BCDFE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EE8BC6-8E58-4B77-8E63-234E9BCDFE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EE8BC6-8E58-4B77-8E63-234E9BCDFE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EE8BC6-8E58-4B77-8E63-234E9BCDFE85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

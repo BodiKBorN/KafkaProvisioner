@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "Tech.Deployment.KafkaSetup": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5244",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "KafkaHostOptions__Host": "dev-platform-msk-main-0-broker-1.dev.ad.playdice.tech:9092,dev-platform-msk-main-0-broker-2.dev.ad.playdice.tech:9092,dev-platform-msk-main-0-broker-3.dev.ad.playdice.tech:9092",
+        "KafkaHostOptions__EnvPrefix": "localtest"
+      }
+    }
+  }
+}
