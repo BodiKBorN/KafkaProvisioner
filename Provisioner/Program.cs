@@ -4,7 +4,7 @@ using Infrastructure;
 using Microsoft.Extensions.Options;
 using Tech.Deployment.KafkaSetup.Services;
 using Infrastructure.Options;
-using Tech.Kafka.Clients.Admin;
+using Kafka.Clients.Admin;
 
 var builder = Host.CreateApplicationBuilder(args);
 

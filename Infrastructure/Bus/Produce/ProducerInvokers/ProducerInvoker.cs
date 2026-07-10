@@ -6,8 +6,8 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Tech.Kafka.Clients;
-using Tech.Kafka.Clients.Producer;
+using Kafka.Clients;
+using Kafka.Clients.Producer;
 
 namespace Infrastructure.Bus.Produce.ProducerInvokers;
 

@@ -1,7 +1,7 @@
 using Infrastructure.Bus.Abstractions;
 using System;
 using System.Collections.Generic;
-using Topic = Tech.Kafka.Clients.Admin.Topic;
+using Topic = Kafka.Clients.Admin.Topic;
 
 namespace Infrastructure.Bus.Produce;
 

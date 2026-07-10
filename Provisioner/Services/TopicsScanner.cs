@@ -2,7 +2,7 @@ using Infrastructure.Bus;
 using Microsoft.Extensions.Options;
 using System.Reflection;
 using Infrastructure.Options;
-using Tech.Kafka.Clients.Admin;
+using Kafka.Clients.Admin;
 
 namespace Tech.Deployment.KafkaSetup.Services;
 

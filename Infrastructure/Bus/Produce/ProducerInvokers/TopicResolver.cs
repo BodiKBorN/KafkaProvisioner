@@ -2,7 +2,7 @@ using Infrastructure.Bus.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Tech.Kafka.Clients.Admin;
+using Kafka.Clients.Admin;
 
 namespace Infrastructure.Bus.Produce.ProducerInvokers;
 

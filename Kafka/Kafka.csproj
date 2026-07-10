@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>Kafka</PackageId>
+    <RepositoryUrl>https://gitlab.dev.clover.tech/ct-platform/clover.tech.kafka.git</RepositoryUrl>
+    <PackageProjectUrl>https://gitlab.dev.clover.tech/ct-platform/clover.tech.kafka</PackageProjectUrl>
+    <VersionPrefix>1.3.4</VersionPrefix>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="App.Metrics" Version="4.3.0" />
+    <PackageReference Include="Confluent.Kafka" Version="2.11.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="OpenTelemetry" Version="1.3.2" />
+    <PackageReference Include="Polly" Version="7.2.3" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+  </ItemGroup>
+</Project>

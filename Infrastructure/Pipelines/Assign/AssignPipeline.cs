@@ -9,10 +9,10 @@ using System.Linq;
 using System.Reactive.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Tech.Kafka.Clients;
-using Tech.Kafka.Clients.Consumer;
-using Tech.Kafka.Utilities.Extensions;
-using Topic = Tech.Kafka.Clients.Admin.Topic;
+using Kafka.Clients;
+using Kafka.Clients.Consumer;
+using Kafka.Utilities.Extensions;
+using Topic = Kafka.Clients.Admin.Topic;
 
 namespace Infrastructure.Pipelines.Assign;
 

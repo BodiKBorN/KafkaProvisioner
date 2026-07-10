@@ -1,4 +1,4 @@
-using Tech.Kafka.Clients.Admin;
+using Kafka.Clients.Admin;
 
 namespace Infrastructure.Bus.Abstractions;
 

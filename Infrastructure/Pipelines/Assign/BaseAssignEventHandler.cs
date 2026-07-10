@@ -1,7 +1,7 @@
 using Confluent.Kafka;
 using Microsoft.Extensions.Logging;
 using System.Text;
-using Tech.Kafka.Utilities;
+using Kafka.Utilities;
 
 namespace Infrastructure.Pipelines.Assign;
 

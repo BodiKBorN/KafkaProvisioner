@@ -6,8 +6,8 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Tech.Kafka.Clients.Consumer;
-using Tech.Kafka.Utilities;
+using Kafka.Clients.Consumer;
+using Kafka.Utilities;
 
 namespace Infrastructure.Pipelines;
 

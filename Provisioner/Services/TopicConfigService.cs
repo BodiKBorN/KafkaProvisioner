@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using System.Globalization;
 using Tech.Deployment.KafkaSetup.Models;
 using Infrastructure.Options;
-using Tech.Kafka.Clients.Admin;
+using Kafka.Clients.Admin;
 
 namespace Tech.Deployment.KafkaSetup.Services;
 

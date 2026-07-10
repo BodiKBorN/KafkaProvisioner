@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Tech.Kafka.Clients.Admin;
+using Kafka.Clients.Admin;
 
 namespace Infrastructure.Bus.Abstractions;
 

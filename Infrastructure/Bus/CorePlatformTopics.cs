@@ -1,6 +1,6 @@
 using Infrastructure.Bus.Abstractions;
 using Infrastructure.Options;
-using Tech.Kafka.Clients.Admin;
+using Kafka.Clients.Admin;
 
 namespace Infrastructure.Bus;
 

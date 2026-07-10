@@ -1,6 +1,6 @@
 using Confluent.Kafka;
 using System.Text;
-using Tech.Kafka.Utilities;
+using Kafka.Utilities;
 
 namespace Infrastructure.Utilities;
 
